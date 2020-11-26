@@ -418,8 +418,23 @@ p {
 /* contact */
 #contact{background-color: var(--color-pink)};
 
-.contact_form,.contact_email,.contact_rights{
-  color:var(--color-white)
+
+.contact_title{ 
+  margin:32px 0;
 }
 
-.contact_title{}
+.contact_links{
+  font-size:var(--font-large);
+  margin:24px 0;
+  transition: all var(--animation-duration) ease;
+}
+
+.contact_links i:hover{
+  transform:scale(1.1);
+  color:var(--color-yellow)
+}
+
+.contact_title,
+.contact_email,
+.contact_rights{color:var(--color-white);}
+
