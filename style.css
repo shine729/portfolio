@@ -416,11 +416,12 @@ p {
 
 
 /* contact */
-#contact{background-color: var(--color-pink)};
+#contact{background-color: var(--color-pink); text-align: center;}
 
 
 .contact_title{ 
-  margin:32px 0;
+  padding:32px 0;
+  margin:0;
 }
 
 .contact_links{
@@ -437,4 +438,8 @@ p {
 .contact_title,
 .contact_email,
 .contact_rights{color:var(--color-white);}
+
+.contact_rights{
+padding-bottom: 20px;
+}
 
