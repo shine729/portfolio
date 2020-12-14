@@ -491,6 +491,11 @@ pointer-events: auto;
   #navbar{
     flex-direction: column;
     align-items: flex-start;
+    background-color: var(--color-pink);
+  }
+
+  #navbar.navbar--dark{
+    padding:16px;
   }
 
   .navbar__menu{
@@ -499,6 +504,11 @@ pointer-events: auto;
     width:100%;
     display:none;
   }
+
+  .navbar__menu.open{
+  display:block;
+  }
+
 
   .about__majors{
     flex-direction: column;
